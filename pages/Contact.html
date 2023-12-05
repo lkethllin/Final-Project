@@ -4,53 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div>ITEM1</div>
-            <div>ITEM2</div>
-            <div>ITEM3</div>
-            <div>ITEM4</div>
-            <div>ITEM5</div>
-            <div>SEARCH BOX</div>
-        </nav>
-    </header>
-    <div><h2>Contact</h2>
+    <nav>
+        <ul>
+            <li><img class="logo" src="../assets/logo.png" alt="logo"></li>
+            <li><a class="home" href="./index.html">Home</a></li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./Services.html">Services</a></li>
+            <li><a href="./Team.html">Team</a></li>
+            <li><a href="./Contact.html"> Contact</a></li>
+            <li><input class="search" type="text" placeholder="Search"><div class="lupa"><span class="material-symbols-outlined">
+                search
+                </span></div></li>
+ 
+        </ul>    
+    </nav>
+    <div class="contactus">
+        <h2 class="contact">Contact Us</h2>
+    <div class="contact-2">
+        <h3 class="last">Send us a message</h3>
         <Form>
-            <label for="fname">First name:</label><br>
+            <label for="fname">Full Name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="email">Email:</label><br>
             <input type="text" id="email" name="email">
-            <textarea name="message" rows="10" cols="30"></textarea>
-            <button>SEND</button>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea>
+            <button>Send</button>
         </Form>
     </div>
-    <div><h2>HOURS</h2>
+    <div class="contact-3"><h3 class="last">Hours of operation</h3>
         <table>
             <tr> 
-                <th>Days</th>
-                <th>Hours</th>
+                <th class="title">Days</th>
+                <th class="title">Hours</th>
             </tr>
             <tr> 
-                <th>1</th>
-                <th>1</th>
+                <th>Monday-Friday</th>
+                <th>9 AM - 6 PM</th>
             </tr>
-            <tr> Hours
-                <th>2</th>
-                <th>2</th>
+            <tr>
+                <th>Saturday - Sunday</th>
+                <th>Closed</th>
             </tr>
         </table>
     </div>
 
-    <div>Location
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3867581281656!2d-79.4176785721811!3d43.76482987045996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b47257e142195%3A0x998c398862d57488!2sCDI%20College%20-%20North%20York!5e0!3m2!1sen!2sca!4v1700675960661!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="contact-4"><h3 class="last">Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3867581281656!2d-79.4176785721811!3d43.76482987045996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b47257e142195%3A0x998c398862d57488!2sCDI%20College%20-%20North%20York!5e0!3m2!1sen!2sca!4v1700675960661!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-        
+</div>    
     <footer>
-        <p>copyright info</p>
+        <p class="footer">© Copyright Three Star Media, 2023. By Laissa Kethllin.</p>
+        <p class="footer">All images were taken from <a class="link" href="https://www.google.com/imghp?hl=en&authuser=0&ogbl" target="_blank"> Google Images</a>.</p>
     </footer>
     
 </body>
