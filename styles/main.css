@@ -4,6 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     }
 
+
 /* header */
 nav {
     background-color: #222;
@@ -107,7 +108,6 @@ p{
     border: none;
     display: inline-flex;
     color: #000000;
-
              
 }
 
@@ -401,6 +401,7 @@ p{
     max-height: fit-content;
     margin-left: 100px;
     margin-right: 100px;
+
     
 }
 
@@ -435,16 +436,14 @@ h3{
 }
 
 .cta{
-    width: 100%;
+    width: 95%;
     font-size: 18px;
     background-color: #222;
     justify-content: center;
-   
+      
 }
 
 /* Our vision and our Team*/
-
-
 .vision{
     padding-left: 100px;
     padding-right: 100px;
@@ -477,11 +476,12 @@ h3{
     padding-right: 10px;
 }
 
-.team-2 {padding-left: 15px;}
+.team-2 {
+    padding-left: 15px;
+}
 
 .team-3 {
     grid-area: 1 / 2;
-
 }
 
 .team-4 {padding-right: 15px;}
@@ -494,7 +494,6 @@ h3{
     grid: auto auto auto /  50% 50%;
     margin-left: 100px;
     margin-right: 100px;
-
 }
 .contact {
     grid-area: 1 / span 2;
@@ -509,13 +508,11 @@ h3{
 }
 
 .contact-4 {
-     margin-left: 10px;}
+     margin-left: 10px;
+}
+
 iframe{
     min-width: 100%;
     height: 90% ;
-    
-
 }
-
-
 }
